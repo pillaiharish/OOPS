@@ -1,0 +1,17 @@
+/*
+    Method overloading by increasing number of arguments
+*/
+class Adder{  
+    static int add(int a,int b){return a+b;}  
+    static int add(int a,int b,int c){return a+b+c;}  
+}  
+class IncreaseNoOfArguments{  
+    public static void main(String[] args){  
+    System.out.println(Adder.add(11,11));  
+    System.out.println(Adder.add(11,11,11));  
+    }
+}  
+/*Output
+    22
+    33
+*/
